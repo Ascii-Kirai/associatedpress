@@ -1,7 +1,7 @@
-user_input = string(input("emoticon/tone tag: "))
+user_input = input("emoticon/tone tag: ")
 
-a = ("Emoticon :/" /n "Annoyed, Slightly Unhappy. Commonly used as a less extreme variant of >:( or :(, mainly as a more slight version of the original.")
+a = "Emoticon :/ \nAnnoyed, Slightly Unhappy. Commonly used as a less extreme variant of >:( or :(, mainly as a more slight version of the original."
 
-if user_input = ":/"
-	print(a)
+if user_input == ":/":
+    print(a)
 
